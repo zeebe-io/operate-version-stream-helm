@@ -1,0 +1,7 @@
+apiVersion: v1
+description: Base Operate Version Stream Project 
+icon: https://zeebe.io/img/zeebe-logo.png
+maintainers:
+- name: Team
+name: operate-version-stream 
+version: 0.0.1

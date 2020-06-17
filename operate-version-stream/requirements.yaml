@@ -1,0 +1,5 @@
+dependencies:
+- alias: operate
+  name: zeebe-operate
+  repository: http://helm.zeebe.io
+  version: 0.0.24
