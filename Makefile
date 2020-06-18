@@ -1,4 +1,4 @@
-DIR := "zeebe-base-chart"
+DIR := "operate-version-stream"
 OS := $(shell uname)
 
 build: clean
