@@ -11,7 +11,7 @@ build: clean
 	helm3 lint ${DIR}
 
 install: 
-	helm3 upgrade ${OPERATE} ${DIR} --install --namespace ${NAMESPACE} --debug --set global.zeebe=${CLUSTER_NAME}
+	helm3 upgrade ${OPERATE} ${DIR} --install --namespace ${NAMESPACE} --debug --set global.zeebe=${CLUSTER_NAME}-zeebe
 
 delete:
 	helm3 delete --purge --no-hooks ${OPERATE} --namespace ${NAMESPACE}
